@@ -56,7 +56,7 @@ fn main() -> anyhow::Result<()> {
 
         // Animate: move back and forth
         x += dx;
-        if x > 10 || x < -60 {
+        if x > 60 || x < -60 {
             dx = -dx;
         }
 
